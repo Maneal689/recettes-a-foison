@@ -1,0 +1,76 @@
+body {
+  font-size: calc(0.3vw + 0.9em);
+  padding: 0;
+  margin: 0 15%;
+  position: relative;
+}
+
+.inline {
+  display: inline;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.page-content {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: 2.5em;
+  padding: 1em 1em;
+  box-sizing: border-box;
+}
+
+.secondary {
+  color: gray;
+  font-size: 0.7em;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.7em;
+  padding: 0 0.5em;
+}
+
+.success-text {
+  color: green;
+  font-size: 0.7em;
+  padding: 0 0.5em;
+}
+
+
+.card {
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.middle {
+  position: absolute;
+  top: 2.5em;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.centered {
+  text-align: center;
+}

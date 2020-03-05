@@ -1,0 +1,36 @@
+.alim-select {
+  margin-right: 3em;
+}
+
+.alim-select > div {
+  margin: 1em 0;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid rgb(180, 180, 180);
+  transition: all ease 0.3s;
+}
+
+input[type="text"]:focus {
+  border-bottom-color: black;
+}
+
+.alim-select button {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: all ease 0.3s;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.alim-select button:hover {
+  background-color: rgb(80, 80, 80);
+  color: white;
+  cursor: pointer;
+}
+
+.alim-item span {
+  margin-right: 1em;
+}
